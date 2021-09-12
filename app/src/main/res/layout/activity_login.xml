@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lable_sign_in"
+        android:textSize="20sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/gilroy_light"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/etEmail_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:fontFamily="@font/gilroy_bold"
+        android:background="@color/colorTextBackground"
+        android:hint="@string/Enter_email"
+        android:padding="12dp"
+        android:textColor="@color/colorText" />
+
+    <EditText
+        android:id="@+id/etpassword_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textPassword"
+        android:fontFamily="@font/gilroy_light"
+        android:background="@color/colorTextBackground"
+        android:hint="@string/Enter_password"
+        android:padding="12dp"
+        android:textColor="@color/colorText" />
+
+
+    <Button
+        android:id="@+id/btnLogin_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginEnd="2dp"
+        android:background="@color/colorDarkGray"
+        android:text="@string/Btn_login"
+        android:textColor="#64FFDA" />
+    <Button
+        android:id="@+id/btnSignup_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@color/colorDarkGray"
+        android:text="@string/Btn_sign_up"
+        android:textColor="#64FFDA" />
+
+
+</LinearLayout>

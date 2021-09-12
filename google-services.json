@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "476035604010",
+    "firebase_url": "https://hands-on-firebase-bb6b1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "hands-on-firebase-bb6b1",
+    "storage_bucket": "hands-on-firebase-bb6b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476035604010:android:7b9a5cfea80482965a2d53",
+        "android_client_info": {
+          "package_name": "com.example.handsonfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476035604010-68h45l07fiine95g8plqbbg5mo0qn07d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6C5HYxnwoTNyC-vnSRXM8QxRBiKKaLxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476035604010-68h45l07fiine95g8plqbbg5mo0qn07d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

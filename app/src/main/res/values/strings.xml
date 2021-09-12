@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">E_Buyer</string>
+
+    <string name="history" />
+    <string name="buy" />
+    <string name="order" />
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="Enter_name">Enter Name</string>
+    <string name="Enter_email">Enter Email</string>
+    <string name="Enter_password">Enter Password</string>
+    <string name="Enter_confirm_password">Enter confirm Password</string>
+    <string name="lable_sign_up">Sign up</string>
+    <string name="lable_sign_in">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="Btn_sign_up">Sign up</string>
+    <string name="Btn_login">Login</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="enter_phone_number">Enter phone number</string>
+</resources>
