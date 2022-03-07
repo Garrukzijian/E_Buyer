@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.UserActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_back"
+            android:padding="5dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/imageBack"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/profile"
+            android:textStyle="bold"
+            android:fontFamily="@font/gilroy_light"
+            android:textSize="15sp" />
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="32dp"
+            android:layout_weight="0.5"
+            android:layout_height="32dp"
+            android:src="@mipmap/ic_launcher"
+            android:padding="5dp"
+            app:riv_corner_radius="20dp"
+            android:id="@+id/imgProfile"/>
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/userRecyclerView"/>
+
+</LinearLayout>

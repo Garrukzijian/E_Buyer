@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "91765501418",
+    "firebase_url": "https://e-buyer-3de06-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "e-buyer-3de06",
+    "storage_bucket": "e-buyer-3de06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91765501418:android:73782e749ab6b64b7c9693",
+        "android_client_info": {
+          "package_name": "com.example.e_buyer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91765501418-l0pig711u29epjli918eoqh7noo7nb1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARxHgGBn6cKz0tgLSdaXbMCdEbGpM3TUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91765501418-l0pig711u29epjli918eoqh7noo7nb1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:id="@+id/layotUser"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp">
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/userImage"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:riv_corner_radius="20dp"
+            app:riv_border_color="@color/colorPrimary"
+            app:riv_border_width="1dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilroy_light"
+                android:textSize="16sp"
+                android:maxLines="1"
+                tool:text="@string/Garruk" />
+            <TextView
+                android:id="@+id/temp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tool:text="@string/temp"
+                android:textSize="14sp"
+                android:fontFamily="@font/gilroy_light"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

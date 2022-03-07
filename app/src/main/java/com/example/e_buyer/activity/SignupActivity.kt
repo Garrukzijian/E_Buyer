@@ -1,9 +1,10 @@
-package com.example.e_buyer
+package com.example.e_buyer.activity
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.e_buyer.R
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.database.DatabaseReference
@@ -44,8 +45,9 @@ class SignupActivity : AppCompatActivity() {
             registerUser(userName,emailaddress,phonenumber,password)
         }
         btnLogin.setOnClickListener {
-            val intent=Intent(this,LoginActivity::class.java)
+            val intent=Intent(this, LoginActivity::class.java)
             startActivity(intent)
+            finish()
         }
     }
 
@@ -71,8 +73,9 @@ class SignupActivity : AppCompatActivity() {
                             etphonenumber.setText("")
                             etpassword.setText("")
                             etConfirmpassword.setText("")
-                            var intent = Intent(this,MainActivity::class.java)
+                            var intent = Intent(this, UserActivity::class.java)
                             startActivity(intent)
+                            finish()
                         }
                     }
                 }
