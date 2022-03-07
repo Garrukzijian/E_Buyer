@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.e_buyer">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,23 +13,44 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.E_Buyer">
         <activity
-            android:name=".LoginActivity"
+            android:name=".activity.ChatActivity"
             android:exported="true" />
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.UserActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="true" />
+        <Service android:name=".firebase.FirebaseService"
+            android:permission = "com.google.android.c2dm.permission.SEND"
+            tools:ignore="InvalidPermission">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="com.google.firebase.Messaging_EVENT"/>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
             </intent-filter>
+        </Service>
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
         <activity
-            android:name=".HistoryActivity"
+            android:name=".activity.HistoryActivity"
             android:exported="true" />
         <activity
-            android:name=".BuyActivity"
+            android:name=".activity.BuyActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
-        </activity>
+            android:name=".activity.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.SignupActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

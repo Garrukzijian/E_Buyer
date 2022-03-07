@@ -22,4 +22,10 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="enter_phone_number">Enter phone number</string>
+    <string name="username">Username</string>
+    <string name="temp">temp</string>
+    <string name="message">Message</string>
+    <string name="Garruk">Garruk</string>
+    <string name="profile">profile</string>
+    <string name="type_message">Type message</string>
 </resources>

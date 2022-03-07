@@ -5,6 +5,7 @@ dependencyResolutionManagement {
         mavenCentral()
         jcenter() // Warning: this repository is going to shut down soon
     }
+
 }
 rootProject.name = "E_Buyer"
 include ':app'

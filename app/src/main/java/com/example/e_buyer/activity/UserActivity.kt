@@ -18,8 +18,6 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import com.google.firebase.iid.FirebaseInstanceId
-import com.google.firebase.iid.internal.FirebaseInstanceIdInternal
-import com.google.firebase.messaging.FirebaseMessaging
 import kotlinx.android.synthetic.main.activity_profile.*
 import kotlinx.android.synthetic.main.activity_user.*
 import kotlinx.android.synthetic.main.activity_user.imageBack
